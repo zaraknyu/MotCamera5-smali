@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mc2_snackbar_pane_title">提醒</string>
+    <string name="operation_add_pages">添加页面</string>
+    <string name="operation_adjust">调整</string>
+    <string name="operation_auto_detect_crop">自动检测</string>
+    <string name="operation_cleanup">擦除</string>
+    <string name="operation_crop">裁剪</string>
+    <string name="operation_delete">删除</string>
+    <string name="operation_filter">滤镜</string>
+    <string name="operation_markup">标记</string>
+    <string name="operation_no_crop">不裁剪</string>
+    <string name="operation_resize">调整大小</string>
+    <string name="operation_retake">重新拍摄</string>
+    <string name="operation_rotate">旋转</string>
+    <string name="operation_save">保存</string>
+    <string name="operation_save_pdf">保存 PDF</string>
+</resources>

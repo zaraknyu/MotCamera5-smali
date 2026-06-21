@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mc2_snackbar_pane_title">Uyarı</string>
+    <string name="operation_add_pages">Sayfa ekle</string>
+    <string name="operation_adjust">Ayarla</string>
+    <string name="operation_auto_detect_crop">Otomatik algıla</string>
+    <string name="operation_cleanup">Temizle</string>
+    <string name="operation_crop">Kırp</string>
+    <string name="operation_delete">Sil</string>
+    <string name="operation_filter">Filtreler</string>
+    <string name="operation_markup">İşaretle</string>
+    <string name="operation_no_crop">Kırpma yok</string>
+    <string name="operation_resize">Yndn Boytlndır</string>
+    <string name="operation_retake">Yeniden çek</string>
+    <string name="operation_rotate">Döndür</string>
+    <string name="operation_save">Kaydet</string>
+    <string name="operation_save_pdf">"PDF'yi Kaydet"</string>
+</resources>

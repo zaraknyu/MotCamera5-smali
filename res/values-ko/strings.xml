@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mc2_snackbar_pane_title">주의</string>
+    <string name="operation_add_pages">페이지 추가</string>
+    <string name="operation_adjust">조정</string>
+    <string name="operation_auto_detect_crop">자동 감지</string>
+    <string name="operation_cleanup">정리</string>
+    <string name="operation_crop">자르기</string>
+    <string name="operation_delete">삭제</string>
+    <string name="operation_filter">필터</string>
+    <string name="operation_markup">마크업</string>
+    <string name="operation_no_crop">자르기 없음</string>
+    <string name="operation_resize">크기 조정</string>
+    <string name="operation_retake">다시 촬영</string>
+    <string name="operation_rotate">회전</string>
+    <string name="operation_save">저장</string>
+    <string name="operation_save_pdf">PDF 저장</string>
+</resources>

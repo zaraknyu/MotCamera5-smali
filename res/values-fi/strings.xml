@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mc2_snackbar_pane_title">Ilmoitus</string>
+    <string name="operation_add_pages">Lisää sivu</string>
+    <string name="operation_adjust">Säädä</string>
+    <string name="operation_auto_detect_crop">Automaattinen tunnistus</string>
+    <string name="operation_cleanup">Siivous</string>
+    <string name="operation_crop">Rajaa</string>
+    <string name="operation_delete">Poista</string>
+    <string name="operation_filter">Suodattimet</string>
+    <string name="operation_markup">Merkitse</string>
+    <string name="operation_no_crop">Ei rajausta</string>
+    <string name="operation_resize">Muuta kokoa</string>
+    <string name="operation_retake">Ota uusi</string>
+    <string name="operation_rotate">Kierrä</string>
+    <string name="operation_save">Tallenna</string>
+    <string name="operation_save_pdf">Tallenna PDF</string>
+</resources>

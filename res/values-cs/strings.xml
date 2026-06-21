@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mc2_snackbar_pane_title">Upozornění</string>
+    <string name="operation_add_pages">Přidat stránku</string>
+    <string name="operation_adjust">Přizpůsobit</string>
+    <string name="operation_auto_detect_crop">Automaticky detekovat</string>
+    <string name="operation_cleanup">Vyčištění</string>
+    <string name="operation_crop">Oříznout</string>
+    <string name="operation_delete">Odstranit</string>
+    <string name="operation_filter">Filtry</string>
+    <string name="operation_markup">Značkování</string>
+    <string name="operation_no_crop">Bez oříznutí</string>
+    <string name="operation_resize">Změnit vel.</string>
+    <string name="operation_retake">Znovu</string>
+    <string name="operation_rotate">Otočit</string>
+    <string name="operation_save">Uložit</string>
+    <string name="operation_save_pdf">Uložit PDF</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="operation_add_pages">Add page</string>
+    <string name="operation_adjust">Adjust</string>
+    <string name="operation_auto_detect_crop">Auto-detect</string>
+    <string name="operation_cleanup">Cleanup</string>
+    <string name="operation_crop">Crop</string>
+    <string name="operation_delete">Delete</string>
+    <string name="operation_filter">Filters</string>
+    <string name="operation_markup">Markup</string>
+    <string name="operation_no_crop">No crop</string>
+    <string name="operation_resize">Resize</string>
+    <string name="operation_retake">Retake</string>
+    <string name="operation_rotate">Rotate</string>
+    <string name="operation_save">Save</string>
+    <string name="operation_save_pdf">Save PDF</string>
+</resources>

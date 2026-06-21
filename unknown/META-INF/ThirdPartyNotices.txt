@@ -1,0 +1,10 @@
+		Third-Party Software for motoprcappwidget (aar), v3.1.x
+
+The following 3rd-party software packages may be used by or distributed with motoprcappwidget aar package. Any information relevant to third-party vendors listed below are collected using common, reasonable means.
+
+Date generated: 2024-6-6
+Revision ID: 641260b7172ffa87fafac412f213f12f979752d1
+FOSSA: https://fossa.mot.com/projects/custom%2B1%2Fmoto_prc_app_widget/refs/branch/master/641260b7172ffa87fafac412f213f12f979752d1
+--------------------------------------------------------------------------------
+LICENSE: Motorola Mobility LLC Confidentical and Restricted
+--------------------------------------------------------------------------------

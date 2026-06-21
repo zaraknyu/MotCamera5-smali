@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mc2_snackbar_pane_title">Warnmeldung</string>
+    <string name="operation_add_pages">Seite hinzufügen</string>
+    <string name="operation_adjust">Anpassen</string>
+    <string name="operation_auto_detect_crop">Automatische Erkennung</string>
+    <string name="operation_cleanup">Bereinigen</string>
+    <string name="operation_crop">Zuschneiden</string>
+    <string name="operation_delete">Löschen</string>
+    <string name="operation_filter">Filter</string>
+    <string name="operation_markup">Markierung</string>
+    <string name="operation_no_crop">Kein Zuschneiden</string>
+    <string name="operation_resize">Größe änd.</string>
+    <string name="operation_retake">Wiederholen</string>
+    <string name="operation_rotate">Drehen</string>
+    <string name="operation_save">Speichern</string>
+    <string name="operation_save_pdf">PDF speichern</string>
+</resources>

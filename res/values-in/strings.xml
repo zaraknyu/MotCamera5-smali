@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mc2_snackbar_pane_title">Pemberitahuan</string>
+    <string name="operation_add_pages">Tambahkan halaman</string>
+    <string name="operation_adjust">Sesuaikan</string>
+    <string name="operation_auto_detect_crop">Deteksi otomatis</string>
+    <string name="operation_cleanup">Bersihkan</string>
+    <string name="operation_crop">Pangkas</string>
+    <string name="operation_delete">Hapus</string>
+    <string name="operation_filter">Filter</string>
+    <string name="operation_markup">Tanda</string>
+    <string name="operation_no_crop">Tidak ada pangkasan</string>
+    <string name="operation_resize">Ubah ukuran</string>
+    <string name="operation_retake">Ambil ulang</string>
+    <string name="operation_rotate">Putar</string>
+    <string name="operation_save">Simpan</string>
+    <string name="operation_save_pdf">Simpan PDF</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mc2_snackbar_pane_title">Varsel</string>
+    <string name="operation_add_pages">Legg til side</string>
+    <string name="operation_adjust">Juster</string>
+    <string name="operation_auto_detect_crop">Automatisk gjenkjenning</string>
+    <string name="operation_cleanup">Opprydding</string>
+    <string name="operation_crop">Beskjær</string>
+    <string name="operation_delete">Slett</string>
+    <string name="operation_filter">Filtre</string>
+    <string name="operation_markup">Merking</string>
+    <string name="operation_no_crop">Ingen beskjæring</string>
+    <string name="operation_resize">Ny størrelse</string>
+    <string name="operation_retake">Ta på nytt</string>
+    <string name="operation_rotate">Roter</string>
+    <string name="operation_save">Lagre</string>
+    <string name="operation_save_pdf">Lagre PDF</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mc2_snackbar_pane_title">Varning</string>
+    <string name="operation_add_pages">Lägg till sida</string>
+    <string name="operation_adjust">Justera</string>
+    <string name="operation_auto_detect_crop">Identifiera automatiskt</string>
+    <string name="operation_cleanup">Rensa</string>
+    <string name="operation_crop">Beskär</string>
+    <string name="operation_delete">Ta bort</string>
+    <string name="operation_filter">Filter</string>
+    <string name="operation_markup">Markera</string>
+    <string name="operation_no_crop">Ingen beskärning</string>
+    <string name="operation_resize">Ny storlek</string>
+    <string name="operation_retake">Ta om</string>
+    <string name="operation_rotate">Rotera</string>
+    <string name="operation_save">Spara</string>
+    <string name="operation_save_pdf">Spara PDF</string>
+</resources>

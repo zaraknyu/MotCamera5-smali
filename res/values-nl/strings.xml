@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mc2_snackbar_pane_title">Melding</string>
+    <string name="operation_add_pages">Pag. toev.</string>
+    <string name="operation_adjust">Aanpassen</string>
+    <string name="operation_auto_detect_crop">Automatisch detecteren</string>
+    <string name="operation_cleanup">Opschonen</string>
+    <string name="operation_crop">Uitsnijden</string>
+    <string name="operation_delete">Verwijderen</string>
+    <string name="operation_filter">Filters</string>
+    <string name="operation_markup">Markeringen</string>
+    <string name="operation_no_crop">Niet uitsnijden</string>
+    <string name="operation_resize">Ander formaat</string>
+    <string name="operation_retake">Opnieuw</string>
+    <string name="operation_rotate">Roteren</string>
+    <string name="operation_save">Opslaan</string>
+    <string name="operation_save_pdf">PDF opslaan</string>
+</resources>

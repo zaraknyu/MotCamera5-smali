@@ -1,0 +1,434 @@
+.class public final Lcom/motorola/camera/ui/layoutmanager/FoldSplitScreenLayoutManager;
+.super Lcom/motorola/camera/ui/layoutmanager/FoldLayoutManager;
+.source "SourceFile"
+
+
+# instance fields
+.field public final mFoldableBaseBottomMargin:I
+
+.field public final mFoldableBaseClearanceHeight:I
+
+.field public final mFoldableBaseComponentsMargin:I
+
+.field public mFoldableBottomMargin:I
+
+.field public mFoldableClearanceHeight:I
+
+.field public mFoldableComponentsMargin:I
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;Lcom/motorola/camera/ui/layoutmanager/LayoutManager;)V
+    .locals 2
+
+    invoke-direct {p0, p1, p2}, Lcom/motorola/camera/ui/layoutmanager/FoldLayoutManager;-><init>(Landroid/content/Context;Lcom/motorola/camera/ui/layoutmanager/LayoutManager;)V
+
+    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    const v1, 0x7f0b0027
+
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/motorola/camera/ui/layoutmanager/FoldSplitScreenLayoutManager;->mFoldableBaseBottomMargin:I
+
+    const v1, 0x7f0b0029
+
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/motorola/camera/ui/layoutmanager/FoldSplitScreenLayoutManager;->mFoldableBaseComponentsMargin:I
+
+    const v1, 0x7f0b0028
+
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
+
+    move-result v0
+
+    iput v0, p0, Lcom/motorola/camera/ui/layoutmanager/FoldSplitScreenLayoutManager;->mFoldableBaseClearanceHeight:I
+
+    instance-of p2, p2, Lcom/motorola/camera/ui/layoutmanager/LayoutManager;
+
+    if-eqz p2, :cond_0
+
+    invoke-virtual {p0, p1}, Lcom/motorola/camera/ui/layoutmanager/FoldSplitScreenLayoutManager;->computeLayout(Landroid/content/Context;)V
+
+    :cond_0
+    return-void
+.end method
+
+
+# virtual methods
+.method public final computeLayout(Landroid/content/Context;)V
+    .locals 1
+
+    iget v0, p0, Lcom/motorola/camera/ui/layoutmanager/FoldSplitScreenLayoutManager;->mFoldableBaseBottomMargin:I
+
+    iput v0, p0, Lcom/motorola/camera/ui/layoutmanager/FoldSplitScreenLayoutManager;->mFoldableBottomMargin:I
+
+    iget v0, p0, Lcom/motorola/camera/ui/layoutmanager/FoldSplitScreenLayoutManager;->mFoldableBaseComponentsMargin:I
+
+    iput v0, p0, Lcom/motorola/camera/ui/layoutmanager/FoldSplitScreenLayoutManager;->mFoldableComponentsMargin:I
+
+    iget v0, p0, Lcom/motorola/camera/ui/layoutmanager/FoldSplitScreenLayoutManager;->mFoldableBaseClearanceHeight:I
+
+    iput v0, p0, Lcom/motorola/camera/ui/layoutmanager/FoldSplitScreenLayoutManager;->mFoldableClearanceHeight:I
+
+    invoke-super {p0, p1}, Lcom/motorola/camera/ui/layoutmanager/LayoutManagerV31;->computeLayout(Landroid/content/Context;)V
+
+    return-void
+.end method
+
+.method public final getCaptureBarGuideLine()F
+    .locals 1
+
+    iget p0, p0, Lcom/motorola/camera/ui/layoutmanager/LayoutManager;->mHeightDp:F
+
+    const/high16 v0, 0x40400000    # 3.0f
+
+    mul-float/2addr p0, v0
+
+    const/high16 v0, 0x40800000    # 4.0f
+
+    div-float/2addr p0, v0
+
+    return p0
+.end method
+
+.method public final getCaptureBarMarginDimen()F
+    .locals 1
+
+    iget-object p0, p0, Lcom/motorola/camera/ui/layoutmanager/FoldLayoutManager;->mContext:Landroid/content/Context;
+
+    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object p0
+
+    const v0, 0x7f070071
+
+    invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getDimension(I)F
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public final getControlBarGuideline()F
+    .locals 2
+
+    iget v0, p0, Lcom/motorola/camera/ui/layoutmanager/LayoutManager;->mHeightDp:F
+
+    const/high16 v1, 0x40000000    # 2.0f
+
+    div-float/2addr v0, v1
+
+    iget p0, p0, Lcom/motorola/camera/ui/layoutmanager/FoldSplitScreenLayoutManager;->mFoldableClearanceHeight:I
+
+    int-to-float p0, p0
+
+    add-float/2addr v0, p0
+
+    return v0
+.end method
+
+.method public final getDualCapturePIPVerticalGuideline()F
+    .locals 3
+
+    sget-object p0, Lcom/motorola/camera/CameraApp;->sInstance:Lcom/motorola/camera/CameraApp;
+
+    iget-object p0, p0, Lcom/motorola/camera/CameraApp;->mPreviewRect:Landroid/graphics/Rect;
+
+    iget v0, p0, Landroid/graphics/Rect;->top:I
+
+    int-to-float v0, v0
+
+    invoke-virtual {p0}, Landroid/graphics/Rect;->height()I
+
+    move-result v1
+
+    int-to-float v1, v1
+
+    const v2, 0x3ea8f5c3    # 0.33f
+
+    mul-float/2addr v1, v2
+
+    add-float/2addr v1, v0
+
+    invoke-virtual {p0}, Landroid/graphics/Rect;->width()I
+
+    move-result p0
+
+    int-to-float p0, p0
+
+    const v0, 0x3cf5c28f    # 0.03f
+
+    mul-float/2addr p0, v0
+
+    add-float/2addr p0, v1
+
+    sget-object v0, Lcom/motorola/camera/CameraApp;->sInstance:Lcom/motorola/camera/CameraApp;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    const v1, 0x7f07012f
+
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+
+    move-result v0
+
+    int-to-float v0, v0
+
+    sub-float/2addr p0, v0
+
+    return p0
+.end method
+
+.method public final getOriginalPreviewFitTransform(Lcom/motorola/camera/PreviewSize;Lcom/motorola/camera/PreviewSize;)Lcom/google/zxing/Result;
+    .locals 1
+
+    const/4 v0, 0x1
+
+    invoke-virtual {p0, p1, p2, v0}, Lcom/motorola/camera/ui/layoutmanager/LayoutManager;->getPreviewFitTransform(Lcom/motorola/camera/PreviewSize;Lcom/motorola/camera/PreviewSize;Z)Lcom/google/zxing/Result;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final getPreviewFitTransform(Lcom/motorola/camera/PreviewSize;Lcom/motorola/camera/PreviewSize;)Lcom/google/zxing/Result;
+    .locals 1
+
+    invoke-virtual {p0}, Lcom/motorola/camera/ui/layoutmanager/FoldSplitScreenLayoutManager;->getRestrictedViewSize()Lcom/motorola/camera/PreviewSize;
+
+    move-result-object p1
+
+    const/4 v0, 0x1
+
+    invoke-virtual {p0, p1, p2, v0}, Lcom/motorola/camera/ui/layoutmanager/LayoutManager;->getPreviewFitTransform(Lcom/motorola/camera/PreviewSize;Lcom/motorola/camera/PreviewSize;Z)Lcom/google/zxing/Result;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final getRestrictedViewSize()Lcom/motorola/camera/PreviewSize;
+    .locals 4
+
+    iget v0, p0, Lcom/motorola/camera/ui/layoutmanager/LayoutManager;->mWidthDp:F
+
+    iget v1, p0, Lcom/motorola/camera/ui/layoutmanager/LayoutManager;->mDisplayDensity:F
+
+    mul-float/2addr v0, v1
+
+    float-to-int v0, v0
+
+    iget v2, p0, Lcom/motorola/camera/ui/layoutmanager/LayoutManager;->mHeightDp:F
+
+    const/high16 v3, 0x40000000    # 2.0f
+
+    div-float/2addr v2, v3
+
+    iget p0, p0, Lcom/motorola/camera/ui/layoutmanager/FoldSplitScreenLayoutManager;->mFoldableClearanceHeight:I
+
+    int-to-float p0, p0
+
+    sub-float/2addr v2, p0
+
+    mul-float/2addr v2, v1
+
+    float-to-int p0, v2
+
+    new-instance v1, Lcom/motorola/camera/PreviewSize;
+
+    invoke-direct {v1, v0, p0}, Lcom/motorola/camera/PreviewSize;-><init>(II)V
+
+    return-object v1
+.end method
+
+.method public final getScanDetectOffset()F
+    .locals 0
+
+    const/high16 p0, 0x42400000    # 48.0f
+
+    return p0
+.end method
+
+.method public final getToggleBarMarginDimen()F
+    .locals 1
+
+    iget-object p0, p0, Lcom/motorola/camera/ui/layoutmanager/FoldLayoutManager;->mContext:Landroid/content/Context;
+
+    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object p0
+
+    const v0, 0x7f07017d
+
+    invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getDimension(I)F
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public final getTrait()I
+    .locals 0
+
+    const/16 p0, 0x30
+
+    return p0
+.end method
+
+.method public final getYOffsetIfNotWideScreen(Lcom/motorola/camera/PreviewSize;)F
+    .locals 4
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p0, v0, p1}, Lcom/motorola/camera/ui/layoutmanager/FoldSplitScreenLayoutManager;->getPreviewFitTransform(Lcom/motorola/camera/PreviewSize;Lcom/motorola/camera/PreviewSize;)Lcom/google/zxing/Result;
+
+    move-result-object p1
+
+    iget-object v0, p1, Lcom/google/zxing/Result;->resultPoints:Ljava/lang/Object;
+
+    check-cast v0, Lcom/motorola/camera/ui/widgets/gl/Vector3F;
+
+    iget v1, v0, Lcom/motorola/camera/ui/widgets/gl/Vector3F;->x:F
+
+    iget v0, v0, Lcom/motorola/camera/ui/widgets/gl/Vector3F;->y:F
+
+    cmpl-float v1, v1, v0
+
+    if-lez v1, :cond_0
+
+    iget v1, p0, Lcom/motorola/camera/ui/layoutmanager/LayoutManager;->mHeightDp:F
+
+    iget v2, p0, Lcom/motorola/camera/ui/layoutmanager/LayoutManager;->mSurfaceDensity:F
+
+    mul-float/2addr v1, v2
+
+    const/high16 v2, 0x40800000    # 4.0f
+
+    div-float/2addr v1, v2
+
+    sub-float/2addr v1, v0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v1, 0x0
+
+    :goto_0
+    sget-object v0, Lcom/motorola/camera/settings/SettingsManager;->TRIPOD_PREVIEW_SWITCH:Lcom/motorola/camera/settings/SettingsManager$Key;
+
+    invoke-static {v0}, Lcom/motorola/camera/settings/SettingsManager;->get(Lcom/motorola/camera/settings/SettingsManager$Key;)Lcom/motorola/camera/settings/Setting;
+
+    move-result-object v0
+
+    iget-object v0, v0, Lcom/motorola/camera/settings/Setting;->mValue:Ljava/lang/Object;
+
+    check-cast v0, Ljava/lang/Boolean;
+
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    invoke-static {}, Lcom/motorola/camera/settings/SettingsHelper;->isPreviewSwitchSupportedOnCurrentMode()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    const/4 v0, -0x1
+
+    goto :goto_1
+
+    :cond_1
+    const/4 v0, 0x1
+
+    :goto_1
+    iget v2, p0, Lcom/motorola/camera/ui/layoutmanager/LayoutManager;->mHeightDp:F
+
+    iget p0, p0, Lcom/motorola/camera/ui/layoutmanager/LayoutManager;->mSurfaceDensity:F
+
+    mul-float/2addr v2, p0
+
+    const/high16 v3, 0x40000000    # 2.0f
+
+    div-float/2addr v2, v3
+
+    iget-object p1, p1, Lcom/google/zxing/Result;->resultPoints:Ljava/lang/Object;
+
+    check-cast p1, Lcom/motorola/camera/ui/widgets/gl/Vector3F;
+
+    iget p1, p1, Lcom/motorola/camera/ui/widgets/gl/Vector3F;->y:F
+
+    sub-float/2addr v2, p1
+
+    sub-float/2addr v2, v1
+
+    const/high16 p1, 0x40a00000    # 5.0f
+
+    mul-float/2addr p0, p1
+
+    sub-float/2addr v2, p0
+
+    int-to-float p0, v0
+
+    mul-float/2addr v2, p0
+
+    return v2
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 2
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "FoldSplitScreenLayoutManager{mBottomMargin="
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget v1, p0, Lcom/motorola/camera/ui/layoutmanager/FoldSplitScreenLayoutManager;->mFoldableBottomMargin:I
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v1, ", mComponentsMargin="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget v1, p0, Lcom/motorola/camera/ui/layoutmanager/FoldSplitScreenLayoutManager;->mFoldableComponentsMargin:I
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v1, ", mFoldableClearanceHeight="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget v1, p0, Lcom/motorola/camera/ui/layoutmanager/FoldSplitScreenLayoutManager;->mFoldableClearanceHeight:I
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string/jumbo v1, "}, "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-super {p0}, Lcom/motorola/camera/ui/layoutmanager/FoldLayoutManager;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mc2_snackbar_pane_title">Underretning</string>
+    <string name="operation_add_pages">Tilføj side</string>
+    <string name="operation_adjust">Juster</string>
+    <string name="operation_auto_detect_crop">Registrer automatisk</string>
+    <string name="operation_cleanup">Rens</string>
+    <string name="operation_crop">Beskær</string>
+    <string name="operation_delete">Slet</string>
+    <string name="operation_filter">Filtre</string>
+    <string name="operation_markup">Markering</string>
+    <string name="operation_no_crop">Ingen beskæring</string>
+    <string name="operation_resize">Juster</string>
+    <string name="operation_retake">Tag om</string>
+    <string name="operation_rotate">Roter</string>
+    <string name="operation_save">Gem</string>
+    <string name="operation_save_pdf">Gem PDF</string>
+</resources>

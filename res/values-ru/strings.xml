@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mc2_snackbar_pane_title">Оповещение</string>
+    <string name="operation_add_pages">Добавить стр.</string>
+    <string name="operation_adjust">Коррекция</string>
+    <string name="operation_auto_detect_crop">Автообнаружение</string>
+    <string name="operation_cleanup">Очистка</string>
+    <string name="operation_crop">Обрезать</string>
+    <string name="operation_delete">Удалить</string>
+    <string name="operation_filter">Фильтры</string>
+    <string name="operation_markup">Пометки</string>
+    <string name="operation_no_crop">Не обрезать</string>
+    <string name="operation_resize">Изм. размер</string>
+    <string name="operation_retake">Переснять</string>
+    <string name="operation_rotate">Повернуть</string>
+    <string name="operation_save">Сохранить</string>
+    <string name="operation_save_pdf">Сохранить PDF</string>
+</resources>

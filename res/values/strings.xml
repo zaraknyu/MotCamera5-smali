@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adobe_scan_app_label">Adobe Scan</string>
+    <string name="mc2_snackbar_pane_title">Alert</string>
+    <string name="operation_add_pages" />
+    <string name="operation_add_pages_default">Add page</string>
+    <string name="operation_adjust" />
+    <string name="operation_adjust_default">Adjust</string>
+    <string name="operation_auto_detect_crop" />
+    <string name="operation_auto_detect_crop_default">Auto-detect</string>
+    <string name="operation_cleanup" />
+    <string name="operation_cleanup_default">Cleanup</string>
+    <string name="operation_crop" />
+    <string name="operation_crop_default">Crop</string>
+    <string name="operation_delete" />
+    <string name="operation_delete_default">Delete</string>
+    <string name="operation_filter" />
+    <string name="operation_filter_default">Filters</string>
+    <string name="operation_markup" />
+    <string name="operation_markup_default">Markup</string>
+    <string name="operation_no_crop" />
+    <string name="operation_no_crop_default">No crop</string>
+    <string name="operation_resize" />
+    <string name="operation_resize_default">Resize</string>
+    <string name="operation_retake" />
+    <string name="operation_retake_default">Retake</string>
+    <string name="operation_rotate" />
+    <string name="operation_rotate_default">Rotate</string>
+    <string name="operation_save" />
+    <string name="operation_save_default">Save</string>
+    <string name="operation_save_pdf" />
+    <string name="operation_save_pdf_default">Save PDF</string>
+</resources>
