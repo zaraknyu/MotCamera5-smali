@@ -196,14 +196,6 @@
     :cond_3
     sget-object p0, Lcom/motorola/camera/CameraApp;->sInstance:Lcom/motorola/camera/CameraApp;
 
-    invoke-static {p0}, Lmotorola/core_services/perf/MotoPerfManagerWrapper;->getInstance(Landroid/content/Context;)Lmotorola/core_services/perf/MotoPerfManagerWrapper;
-
-    move-result-object p0
-
-    const/16 v0, 0x77
-
-    invoke-virtual {p0, v0}, Lmotorola/core_services/perf/MotoPerfManagerWrapper;->perfHintEnd(I)V
-
     :cond_4
     return-void
 
